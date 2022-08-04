@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    display: flex;
+    background-image: url("/assets/background2\ 1.svg");
+    font-family: 'Poppins', sans-serif;
+    color: #FF26E9;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+}
+
+/* .fill {
+    background: -webkit-linear-gradient(left,#FF26E9 100%, #B61CFF 100%);
+    background: linear-gradient(to right,#FF26E9 100%, #B61CFF 100%);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}   */ 
+
+
+.container {
+    width: 326px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin: 20px auto;
+}
+
+.container figure {
+    margin-bottom: 20px;
+}
+
+.container span {
+    width: 213px;
+    height: 213px;
+
+    border-radius: 50%;
+    border: 5px solid ;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container figure span img{
+    width: 213px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.container figure figcaption {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 15px 0 0;
+    color: transparent;
+    background-image: linear-gradient(#FF26E9, #B61CFF);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.container .btns-links {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container .btns-links a {
+    height: 49px;
+    line-height: 49px;
+    margin: 0 5px 16px;
+
+    border: 2px solid;
+    border-radius: 25px;
+
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    color: #FF26E9;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 50px 0 0;
+    color: transparent;
+    background-image: linear-gradient(#FF26E9, #B61CFF);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.container .social-list {
+    width: 100%;
+    margin: 1px 0 0;
+    padding: 10px 50px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.container .social-list img {
+    width: 24px;
+    margin: 0 5px;
+}
+
+
+
+
+
+
