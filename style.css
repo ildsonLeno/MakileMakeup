@@ -6,7 +6,7 @@
 
 body {
     display: flex;
-    background-image: url("/assets/background2\ 1.svg");
+    background-image: url("assets/background2 1.svg");
     font-family: 'Poppins', sans-serif;
     color: #FF26E9;
     align-items: center;
