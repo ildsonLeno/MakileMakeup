@@ -15,15 +15,6 @@ body {
     height: 100vh;
 }
 
-/* .fill {
-    background: -webkit-linear-gradient(left,#FF26E9 100%, #B61CFF 100%);
-    background: linear-gradient(to right,#FF26E9 100%, #B61CFF 100%);
-
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}   */ 
-
-
 .container {
     width: 326px;
     text-align: center;
